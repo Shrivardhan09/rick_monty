@@ -58,6 +58,7 @@ const CardsDetails = () => {
             <li className="list-group-item">Name: {apiData?.name}</li>
             <li className="list-group-item">Gender: {apiData?.gender}</li>
             <li className="list-group-item">Type: {apiData?.type || 'unknown'}</li>
+            <li className="list-group-item">Orgin: {apiData?.origin?.name}</li>
             <li className="list-group-item">Location: {apiData?.location?.name}</li>
           </ul>
         </div>
