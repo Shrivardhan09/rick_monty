@@ -1,0 +1,22 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  gap: 12px;
+  width: 100%;
+}
+/* @media (max-width: 600px) {
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .mobile-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px !important;
+  }
+} */

@@ -1,0 +1,16 @@
+.form-search {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.search-bar {
+  max-width: 75%;
+  min-width: 25%;
+  width: 50%;
+  outline: none;
+  border: 2px solid rgb(93, 93, 207);
+  padding: 2px 5px;
+  border-radius: 8px;
+}

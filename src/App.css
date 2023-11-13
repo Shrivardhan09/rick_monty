@@ -1,0 +1,42 @@
+.app {
+  /* margin: 25px; */
+}
+
+.container-app {
+  display: flex;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.filter-sec {
+  flex: 25%;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cards-sec {
+  display: flex;
+  flex: 65%;
+  flex-wrap: wrap;
+  gap: 25%;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 500;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(93, 93, 207);
+  border-radius: 12px;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+@media (max-width: 600px) {
+  .container-app {
+    display: flex;
+    flex-direction: column;
+  }
+}
